@@ -2,6 +2,7 @@
 /*Google Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 /*--------------------------------------------------------------
 >> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -30,6 +31,7 @@
 23. Footer
 
 --------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
 1. Typography
 ----------------------------------------------------------------*/
@@ -579,7 +581,7 @@ hr {
 	font-size:18px;
 	font-weight:600;
 	text-transform: uppercase;
-    letter-spacing: 3px;
+  letter-spacing: 3px;
 }
 	
 	
@@ -1061,8 +1063,19 @@ hr {
   font-size: 120px;
   margin-bottom: 24px;
   font-weight: 900;
-  color: #fdfeff;
+  color: transparent;
   line-height: 1;
+  -webkit-text-stroke: 1px #ffffff;
+  /* background: url(../img/back.png); */
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,white);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+@keyframes back{
+100%{
+  background-position: 2000px 0px;
+}
 }
 
 .st-hero.st-style1 .st-hero-text h2 {
@@ -3181,7 +3194,16 @@ canvas {
     display: inline-block;
     margin-left: 7px;
 }
-
+.whatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  cursor: pointer;
+  z-index: 9999;
+}
+.whatsapp_img{
+  width: 70px;
+}
 
 
 
