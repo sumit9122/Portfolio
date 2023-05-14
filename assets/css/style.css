@@ -1219,7 +1219,7 @@ hr {
   line-height: 1;
   -webkit-text-stroke: 1px #ffffff;
   /* background: url(../img/back.png); */
-  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, white);
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo,white,red);
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
