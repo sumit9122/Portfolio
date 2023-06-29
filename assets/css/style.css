@@ -104,20 +104,6 @@ em,
 i {
   font-style: italic;
 }
-.wow.fadeInRight {
-filter: blur(18px);
-}
-.parents {
-  position: relative;
-}
-.childs {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-}
-.childs h2{
-  color: #000000;
-}
 blockquote {
   margin: 0 15px;
 }
